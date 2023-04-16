@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    place-items: center;
+    padding: 100px;
+    justify-content: center;
+}
+
+.createlogin{
+    justify-content: center;
+    height: 100%;
+    width:100%;
+    margin: 0 20px;
+}
+.createlogin > h1{
+    font-size: 45px;
+}
+.createlogin > h2{
+    font-size: 45px;
+}
+.createform{    
+    display: grid;
+    padding: 25px;
+}
+.createform > input{
+    height: 40px;
+    border: 2px solid lightgrey;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+
+ 
+

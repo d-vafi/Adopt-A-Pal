@@ -1,0 +1,197 @@
+
+* {
+	box-sizing: border-box;
+	
+}
+body{
+	font-size: 20px;
+	font-family: 'Arial', Sans-Serif;
+	background-color: #dcbdf3;
+}
+
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+  }
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+img {
+
+	object-fit: contain;
+	width: 300px;
+	position: relative;
+	margin: 10px;
+	
+}
+
+.header {
+	
+	background-color: #f1f1f1;
+	margin: 0px;
+	height: 200px;
+	width: 99%;
+	border: 7px inset gray;
+	position: relative;
+	padding: 20px;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	
+}
+#date {
+	width: 300px;
+	font-size: 20px;
+	font-family: 'Courier New', Sans-Serif;
+	border: 2px inset blue;
+	border-radius: 20px 20px 20px 20px;
+	position: relative;
+	padding: 5px;
+	text-align: justify;
+}
+
+.image1 {
+	height: 200px;
+	width: 200px;
+	border: 5px inset blue;
+	object-fit: contain;
+	border-radius: 50%;
+	margin-left: 2px;
+	
+}
+.image2 {
+	height: 400px;
+	width: 400px;
+	border: 5px inset blue;
+	object-fit: contain;
+	border-radius: 50%;
+	margin-left: 2px;
+	
+}
+.image3 {
+	height: 200px;
+	width: 200px;
+	border: 5px inset blue;
+	object-fit: fill;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 2px;
+	
+}
+.sidebar {
+	background-color: #f1f1f1; 
+	border: 7px inset grey;
+	width: 200%;
+	position: relative;
+	padding: 10px 10px;
+}
+
+.sidebar a {
+	list-style-type: none;
+	text-decoration: none;
+	display: block;
+	padding: 2px 5px; 
+}
+.sidebar a:hover {
+  background-color: #ccc;
+}
+.sidebar a.active{
+	list-style-type: none;
+	color: white;
+}
+nav {
+	
+	flex: 1;	
+	background-color: #f1f1f1; 
+	border: 7px inset grey;
+	position: relative;
+	padding: 10px 10px;
+}
+nav  a{
+	list-style-type: none;
+	text-decoration: none;
+	display: block;
+	padding: 2px 5px; 
+}
+nav a:hover{
+	background-color: #ccc;
+}
+nav a.active{
+	background-color: green;
+	list-style-type: none;
+	color: white;
+}
+.article {
+	
+	height: 100%;
+	width: 100%;
+}
+
+article{
+	margin-right: 1%;
+	position: relative;
+	flex: 4;
+	padding: 10px;
+	text-align: center;
+	line-height: 40px;
+	border: 7px inset gray;
+}
+
+
+article ul {
+	text-align: justify;
+}
+article li {
+	text-align: justify;
+	line-height: 40px;
+}
+footer {
+	
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-right: 1%;
+  
+}
+fieldset{
+	background-color: #dcbdf3;
+	border-radius: 15px 15px 15px 15px;
+}
+input {
+	margin: 3px;
+}
+#pets{
+	
+	position: center;
+	justify-content: center;
+	
+}
+#breedtext{
+	
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+#goodbyeMsg{
+	padding: 40px;
+	
+}
+p.logoutP{
+	border-style: inset;
+	border-color: blueviolet;
+	border-radius: 20px 20px 20px 20px; 
+	
+}
+
+
