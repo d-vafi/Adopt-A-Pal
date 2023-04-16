@@ -11,7 +11,7 @@ and 'Contact us'
 Using XAMPP LocalHost, running the code directly 
 from your local server will allow you to access the site. 
 
-A non-functional version of the website was made using 
+A functional version of the website was made using 
 000webhost.com , as well as the Github Pages version here. 
 
 The website can be found using the following link;
